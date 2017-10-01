@@ -1,4 +1,4 @@
-In this post we will see some high level test cases of an e-commerce website covering general UI test cases, product buy flow test cases and product creation panel test cases.
+In [this post](http://artoftesting.com/manualTesting/ecommerce.html) we will see some high level test cases of an e-commerce website covering general UI test cases, product buy flow test cases and product creation panel test cases.
 
 ## General Test Cases
 

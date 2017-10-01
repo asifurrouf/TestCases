@@ -53,3 +53,15 @@ In this post we will see some high level test cases of an e-commerce website cov
 13. Verify that leading and trailing spaces are trimmed
 14. Verify that entering blank spaces on mandatory fields lead to validation error
 15. Verify that after making a request to the server and then sending the same request again with the same unique key will lead to server side validation error
+
+## Seller - Product creation Test cases
+
+1. Verify that authenticated sellers get access to product creation panel specific to the authorised categories
+2. Verify that product creation panel is working fine for single product creation
+3. Verify that product creation panel is working fine for multiple product creation
+4. Verify that maximum product creation limit for seller is working fine, limiting seller to create more than the desired number of products
+5. Verify panel validation for checking mandatory fields
+6. Verify that duplicate product creation is restricted through panel
+7. Verify that seller can update information and price of existing products
+8. Verify that product created by seller get visible on the website after certain period of time
+9. Verify that updation made by seller get visible on the website after certain period of time

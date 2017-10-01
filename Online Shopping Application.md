@@ -2,25 +2,25 @@ In this post we will see some high level test cases of an e-commerce website cov
 
 ## General Test Cases
 
-* Verify that user is able to navigate through all the products across different categories
-* Verify that all the links and banners are redirecting to correct product/category pages and none of the links arr broken
-* Verify that the company logo is clearly visible
-* Verify that all the text - product, category name, price and product description are clearly visible
-* Verify that all the images - product and banner are clearly visible
-* Verify that category pages have relevant product listed specific to the category
-* Verify that correct count of total products are listed on the category pages
-* Search - Verify that on searching all the product satisfying the search criteria are visble on the search result page
-* Search - Verify the more relevant product for the search term are displayed on the top for a particular search term
-* Search - Verify that count of products is correctly displayed on the search result page for a particular search term
-* Filtering - Verify that filtering functionality correctly filters product based on the filter applied
-* Filtering - Verify that filtering works correctly on category pages
-* Filtering - Verify that filtering works correctly on the search result page
-* Filtering - Verify that correct count of total products is displayed after a filter is applied
-* Sorting - Verify that all the sort options work correctly - correctly sort the products based on the sort option chosen
-* Sorting - Verify that sorting works correctly on the category pages
-* Sorting - Verify that sorting works correctly on the search result page
-* Sorting - Verify that sorting works correctly on the pages containing filtered result, after applying filters
-* Sorting - Verify that product count remains intact irrespective of sorting option applied
+1. Verify that user is able to navigate through all the products across different categories
+2. Verify that all the links and banners are redirecting to correct product/category pages and none of the links arr broken
+3. Verify that the company logo is clearly visible
+4. Verify that all the text - product, category name, price and product description are clearly visible
+5. Verify that all the images - product and banner are clearly visible
+6. Verify that category pages have relevant product listed specific to the category
+7. Verify that correct count of total products are listed on the category pages
+8. Search - Verify that on searching all the product satisfying the search criteria are visble on the search result page
+9. Search - Verify the more relevant product for the search term are displayed on the top for a particular search term
+10. Search - Verify that count of products is correctly displayed on the search result page for a particular search term
+11. Filtering - Verify that filtering functionality correctly filters product based on the filter applied
+12. Filtering - Verify that filtering works correctly on category pages
+13. Filtering - Verify that filtering works correctly on the search result page
+14. Filtering - Verify that correct count of total products is displayed after a filter is applied
+15. Sorting - Verify that all the sort options work correctly - correctly sort the products based on the sort option chosen
+16. Sorting - Verify that sorting works correctly on the category pages
+17. Sorting - Verify that sorting works correctly on the search result page
+18. Sorting - Verify that sorting works correctly on the pages containing filtered result, after applying filters
+19. Sorting - Verify that product count remains intact irrespective of sorting option applied
 
 ## Product Buy Flow - Test cases
 
@@ -35,3 +35,21 @@ In this post we will see some high level test cases of an e-commerce website cov
 9. Verify that Cash on Delivery option of payment is working fine
 10. Verify that the different pre-paid methods of payments are working fine
 11. Verify that product return functionality works fine
+
+## User(Buyer) Registration - Test cases
+
+1. Verify that all the specified fields are present on the registration page
+2. Verify that the required/mandatory fields are marked with * against the field
+3. Verify that for better user interface dropdowns, radio buttons and checkboxes etc fields are displayed wherever possible instead of just textboxes
+4. Verify the page has both submit and cancel/reset buttons at the end
+5. Verify that clicking submit button after entering all the required fields, submits the data to the server
+6. Verify that clicking cancel/reset button after entering all the required fields, cancels the submit request and resets all the fields
+7. Verify that whenever possible validation should take place at client side
+8. Verify that not filling the mandatory fields and clicking submit button will lead to validation error
+9. Verify that not filling the optional fields and clicking submit button will still send data to server without any validation error
+10. Check the upper limit of the textboxes
+11. Check validation on date and email fields (only valid dates and valid email Ids should be allowed
+12. Check validation on numeric fields by entering alphabets and special characters
+13. Verify that leading and trailing spaces are trimmed
+14. Verify that entering blank spaces on mandatory fields lead to validation error
+15. Verify that after making a request to the server and then sending the same request again with the same unique key will lead to server side validation error

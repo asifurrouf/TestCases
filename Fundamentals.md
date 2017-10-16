@@ -48,9 +48,18 @@ the format is determined by the tool used.
 | Date of ReExecution | 02/16/2020 |
 | Test Environment | OS: Windows >> Browser: Chrome |
 
-	
-	
-	
-	
+## WRITING GOOD TEST CASES
 
+* As far as possible, write test cases in such a way that you test only one thing at a time. Do not overlap or complicate test cases. Attempt to make your test cases ‘atomic’.
+* Ensure that all positive scenarios and negative scenarios are covered.
+* Language:   
+	Write in simple and easy to understand language.
+        Use active voice: Do this, do that.
+        Use exact and consistent names (of forms, fields, etc).
+* Characteristics of a good test case:
+        Accurate: Exacts the purpose.
+	Economical: No unnecessary steps or words.
+        Traceable: Capable of being traced to requirements.
+	Repeatable: Can be used to perform the test over and over.
+	Reusable: Can be reused if necessary.
 

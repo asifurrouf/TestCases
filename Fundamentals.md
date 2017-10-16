@@ -35,9 +35,9 @@ the format is determined by the tool used.
 | Test Case ID | TC001 |
 | Test Case Summary | To verify that clicking the Generate Coin button generates coins |
 | Related Requirement | RS001 |
-| Prerequisites | 1. User is authorized 2. Coin balance is available |
-| Date of Execution | The date of execution of the test |
-| Date of Execution | The date of execution of the test |
+| Prerequisites | User is authorized >> Coin balance is available |
+| Date of Execution | The date of execution of the test | The date of execution of the test |
+| Date of Execution | The date of execution of the test | The date of execution of the test |
 | Date of Execution | The date of execution of the test |
 | Date of Execution | The date of execution of the test |
 | Date of Execution | The date of execution of the test |

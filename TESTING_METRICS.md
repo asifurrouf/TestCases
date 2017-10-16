@@ -4,6 +4,7 @@
 | ------------- | ---------------- | ---------| -----|------------- |
 | Microsoft  | 1 Hour  | 1 Hour   | [StackOverflow](https://stackoverflow.com/questions/1434774/qa-vs-development-ratio?answertab=oldest#tab-top) | Programmers do Testing  |
 | Normal Company  | 8 Hour  | 1 Hour  | [StackOverflow](https://stackoverflow.com/questions/1434774/qa-vs-development-ratio/1434913#1434913)  | automated testing very seriously  |
+| New Company  | 5 Or 6 Hour  | 1 Hour  | [StackOverflow](https://stackoverflow.com/questions/1434774/qa-vs-development-ratio/1434913#1434913)  | No Automated Testing   |
 
 ## Test Metrics Rules
 

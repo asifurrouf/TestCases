@@ -36,10 +36,21 @@ the format is determined by the tool used.
 | Test Case Summary | To verify that clicking the Generate Coin button generates coins |
 | Related Requirement | RS001 |
 | Prerequisites | User is authorized >> Coin balance is available |
-| Date of Execution | The date of execution of the test | The date of execution of the test |
-| Date of Execution | The date of execution of the test | The date of execution of the test |
-| Date of Execution | The date of execution of the test |
-| Date of Execution | The date of execution of the test |
-| Date of Execution | The date of execution of the test |
-| Date of Execution | The date of execution of the test |
-| Date of Execution | The date of execution of the test |
+| Test Procedure | Select the coin denomination in the Denomination field. >> Enter the number of coins in the Quantity fiel >> Click Generate Coin. |
+| Test Data	 | Denominations: 0.05, 0.10, 0.25, 0.50, 1, 2, 5 >> Quantities: 0, 1, 5, 10, 20  |
+| Expected Result	 | Coin of the specified denomination should be produced if the specified Quantity is valid (1, 5) >> A message ‘Please enter a valid quantity between 1 and 10’ should be displayed if the specified quantity is invalid.|
+| Actual Result	 | If the specified quantity is valid, the result is as expected. >> If the specified quantity is invalid, nothing happens; the expected message is not displayed |
+| Status | Fail |
+| Remarks | This is a sample test case. |
+| Created By | John Doe |
+| Date of Execution | 01/14/2020 |
+| Executed By | Jane Roe |
+| Date of ReExecution | 02/16/2020 |
+| Test Environment | OS: Windows >> Browser: Chrome |
+
+	
+	
+	
+	
+
+
